@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Problem</title>
+    <style>                                         
+        body {   
+            background-color: rgba(51, 219, 40, 0.786);
+        }
+        h1 {
+            text-align: center;
+        }
+        .image-container {
+            display: flex;                     
+            justify-content: space-between;   
+        }
+        .image-container a {
+            text-align: center;                
+            text-decoration: none;              
+            color: white;                      
+            margin-top: 5px;                   
+        }
+        .image-container img {
+            width: 77%;                      
+            height: auto;                      
+            border-radius: 30px;               
+        }
+        .grid-container {
+            display: grid;                     
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px;                        
+            padding: 20px;                    
+        }
+        .grid-box {
+background-color: rgba(51, 219, 40, 0.786);           
+            border: 2px solid #ccc;            
+            border-radius: 10px;               
+            padding: 20px;                     
+            text-align: center;                 
+        }
+        .grid-box {
+            background-color: rgba(51, 219, 40, 0.786);           
+            border: 3.8px dotted green;           
+            border-radius: 10px;               
+            padding: 30px;                     
+            text-align: center;   
+        }
+    </style>
+</head>
+<body>
+    <h1><b>STORE</b></h1>
+    <h1>Top Goods at the moment </h1>
+    <div class="image-container">
+        <a href="https://or.niscpr.res.in/index.php/JIAEM/article/download/922/164/2185" target="_blank">
+            <img src="WhatsApp Image 2024-10-03 at 10.49.19 AM (1).jpeg" alt="Bamboo Straw">
+            <div class="know-more-about-deforestation">Bamboo Straw</div>
+        </a>
+        <a href="https://www.britannica.com/science/global-warming" target="_blank">
+            <img src="WhatsApp Image 2024-10-03 at 10.49.19 AM (2).jpeg" alt="Bamboo cups">
+            <div class="know-more-about-global-warming">Bamboo cups</div>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Overpopulation" target="_blank">
+            <img src="WhatsApp Image 2024-10-03 at 10.49.19 AM (3).jpeg" alt="Eco Pens">
+            <div class="know-more-about-overpopulation">Eco pens</div>
+        </a>
+        <a href="https://www.nrdc.org/stories/water-pollution-everything-you-need-know" target="_blank">
+            <img src="WhatsApp Image 2024-10-03 at 10.49.19 AM.jpeg" alt="bamboo brushes">
+            <div class="know-more-about-water-pollution">Bamboo Brushes</div>
+        </a> 
+    </div>
+    <h1>Shop All Sustainable Goodies!</h1>
+    <div class="image-container">
+        <div class="grid-box">  <b>Respect Earth, respect life</b></div>
+        <div class="grid-box">  <b>One Earth, one chance: let’s make it count!</b></div>
+        <div class="grid-box">   <b>Earth’s beauty is our duty.</b></div>
+        <div class="grid-box">   <b>We be-leaf in a greener future.</b></div>
+    </div>
+</body>
+</html>
