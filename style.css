@@ -91,17 +91,17 @@ body{
     background-color: green;
 }
 .services .card .item{
-    width: 300px;
+    width: 1050px;
     min-width: 160px;
     background-color: #5aff1e;
     cursor: pointer;
-    padding: 15px;
+    padding: 20px;
 }
 .services .card .item img{
     width: 100%;
 }
 .card{
-    width: 300px;
+    width: 1050px;
 }
 .button{
     border-radius: 5px;
